@@ -16,7 +16,10 @@
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+
+    /* 👇 Add this line to recognize process.env */
+    "types": ["node"]
   },
   "include": ["vite.config.ts"]
 }
